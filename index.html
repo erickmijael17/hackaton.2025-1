@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clasificación IA - Artesanías</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-teal px-4">
+    <a class="navbar-brand fw-bold" href="#">
+      <img src="assets/logo.png" alt="Logo" width="32" class="me-2">Clasificación IA
+    </a>
+    <div class="ms-auto">
+      <a href="login.html" class="btn btn-outline-light">Iniciar Sesión</a>
+    </div>
+  </nav>
+  <header class="container py-5">
+    <div class="row align-items-center">
+      <div class="col-md-7">
+        <h1 class="fw-bold text-teal">¿Qué es la Clasificación y Reconocimiento de Productos con IA?</h1>
+        <p class="lead">Es un proceso en el cual un sistema inteligente <b>analiza imágenes o descripciones</b> de productos artesanales para:</p>
+        <ul>
+          <li><b>Identificar</b> el tipo de artesanía.</li>
+          <li><b>Clasificar</b> según su técnica, origen, color, estilo, función, etc.</li>
+          <li><b>Etiquetar</b> automáticamente los productos con información útil.</li>
+        </ul>
+      </div>
+      <div class="col-md-5 text-center">
+        <img src="assets/hero-artesania.png" alt="Artesanía" class="img-fluid rounded shadow">
+      </div>
+    </div>
+  </header>
+  <section class="container py-4">
+    <h2 class="text-teal mb-3">🔍 ¿Qué tecnologías se usan?</h2>
+    <ol>
+      <li><b>Visión por Computadora:</b> Analiza imágenes para reconocer formas, patrones, texturas y colores.</li>
+      <li><b>Redes Neuronales Convolucionales (CNN):</b> Modelo de IA entrenado con miles de imágenes de artesanía.</li>
+      <li><b>Modelos de Clasificación Multietiqueta:</b> Un producto puede tener varias etiquetas como tipo, técnica, origen, etc.</li>
+    </ol>
+  </section>
+  <section class="container py-4">
+    <h2 class="text-teal mb-3">🧪 ¿Cómo sería el proceso paso a paso?</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">1. Entrenamiento del modelo IA</h5>
+            <ul>
+              <li>Se recopilan muchas imágenes etiquetadas de productos artesanales.</li>
+              <li>Se entrena una red neuronal para que "aprenda" las diferencias.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">2. Uso por el usuario</h5>
+            <ul>
+              <li>El usuario toma una foto de una pieza con su celular.</li>
+              <li>La app envía la imagen al modelo de IA.</li>
+              <li>El modelo analiza la imagen y da el resultado: tipo, técnica, región, colores.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">3. Resultado útil</h5>
+            <ul>
+              <li>Se genera automáticamente una ficha técnica del producto.</li>
+              <li>Se asignan etiquetas para la tienda en línea.</li>
+              <li>Se recomienda precio promedio, similar a otros productos clasificados.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container py-4">
+    <h2 class="text-teal mb-3">🧰 ¿Qué beneficios trae esto?</h2>
+    <div class="table-responsive">
+      <table class="table table-bordered align-middle">
+        <thead class="table-light">
+          <tr>
+            <th>Beneficio</th>
+            <th>Impacto</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Clasificación rápida</td><td>Ahorra tiempo y errores al subir productos al catálogo.</td></tr>
+          <tr><td>Fichas técnicas automáticas</td><td>Mejora la calidad informativa de cada artesanía.</td></tr>
+          <tr><td>Visibilidad para el artesano</td><td>Mejora la exposición del producto en buscadores.</td></tr>
+          <tr><td>Preservación cultural</td><td>Se identifican técnicas y estilos tradicionales con precisión.</td></tr>
+          <tr><td>Inclusión digital</td><td>Artesanos con poco conocimiento técnico pueden usar el sistema.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section class="container py-4">
+    <h2 class="text-teal mb-3">📱 Ejemplo realista en tu proyecto</h2>
+    <div class="card">
+      <div class="card-body">
+        <b>Nombre del producto:</b> "Chullo ceremonial de Puno"<br>
+        <b>Foto tomada desde el celular → Procesada por IA → Resultado:</b>
+        <pre class="bg-light p-3 mt-2 rounded">
+Tipo: Textil
+Subtipo: Chullo
+Región: Puno
+Técnica: Tejido con aguja circular
+Colores: Rojo predominante, bordes negros y blancos
+Uso cultural: Ceremonial (según patrones detectados)
+Probabilidad de venta alta en: Junio–Agosto (por temporada)
+        </pre>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-teal text-white text-center py-3 mt-5">
+    <small>© 2024 InfotelPeru - Clasificación IA Artesanías</small>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 

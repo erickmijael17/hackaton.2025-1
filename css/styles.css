@@ -1,0 +1,44 @@
+/* Paleta personalizada */
+:root {
+  --teal: #009688;
+  --teal-dark: #00796b;
+  --teal-light: #b2dfdb;
+  --gray-bg: #f8f9fa;
+}
+
+.text-teal {
+  color: var(--teal) !important;
+}
+.bg-teal {
+  background-color: var(--teal) !important;
+}
+.btn-teal {
+  background: var(--teal);
+  color: #fff;
+  border: none;
+}
+.btn-teal:hover {
+  background: var(--teal-dark);
+  color: #fff;
+}
+.sidebar {
+  min-width: 220px;
+  max-width: 240px;
+  background: var(--teal);
+}
+.sidebar .nav-link.active, .sidebar .nav-link:hover {
+  background: var(--teal-dark);
+  color: #fff;
+  border-radius: 5px;
+}
+body {
+  background: var(--gray-bg);
+}
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+pre {
+  font-size: 1rem;
+  font-family: 'Fira Mono', 'Consolas', monospace;
+} 
